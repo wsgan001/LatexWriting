@@ -1,0 +1,34 @@
+% Chapter 3
+\chapter{Previous Works} % Write in your own chapter title
+\label{Chapter 2}
+\lhead{Chapter 2. \emph{Previous Works}} 
+In this chapter, we discuss some basic terminologies and background knowledge in infrequent itemset mining, sliding window based approach and Share-frequent approach. 
+We also discuss some recent works in the field of infrequent itemset mining. Here, we highlight their working procedure and analyze the algorithms.
+\section{Related Works}
+Frequent itemset mining is commonly used and established process for finding frequent items \cite{agrawal1993mining}. In general approaches, all items in a dataset is treated equally. But when an item is having weight, 
+it can’t be treated equally with other items. If we do so, we will lose more information from the dataset. For differentiating the itemsets, \cite{wang2000efficient} authors focus on finding more informative association 
+rules. This rule is named “Weighted association rules” (WAR). In this approach, weight denotes the significance of an item.  Based on weight, items are processed for mining. Mining process is also 
+done by keeping weight in mind. Weight can be pre-assigned or not. Several approaches have been already established \cite{tao2003weighted}, \cite{wang2000efficient}.  Based on weight, infrequent itemset mining has also gained interest. Those itemsets 
+are infrequent that frequency is less than min\_support. Their frequency is also quite little. In \cite{cagliero2014infrequent}, minimal infrequent itemsets are mined. In this approach, they have taken a weighted dataset. 
+Gives every item an equivalence weight for simplicity. Then they have created a weighted tree. This weighted is sent for mining. In mining process, they have applied FP-Growth like algorithm for 
+finding infrequent itemsets. In their approach, tree construction is conducting more time. It also creates the tree more branches. Mining process shows infrequent items but they cannot provide the 
+actual contribution of an item in the dataset. This approach works on a fixed dataset and cannot be applied for stream data.\\
+
+Sliding window is an approach for processing stream data. In stream data, data is a continuous channel and arrives within a fixed time range. So, it requires to process those data within a very small 
+span of time. In \cite{ahmed2009efficient}, an efficient approach is proposed for finding frequent items using sliding window mechanism. It introduces the idea of window size and batch size. Each batch contains a numbers of 
+transactions. Window size is the number of batches. Window slides to next window new batches come. As previous data are no longer present, so it deletes the previous data and its related weight from table.
+It constructs the tree for a window and perform mining process. When a window is completed, it slides to next.\\ 
+
+Let, {\it I} = \{{\it $i_1$, $i_2$,. . . . . ,$i_m$}\} be a  set of items and T be a transaction database Transactional dataset {\it D} =\{{\it $T_1$, $T_2$, $T_3$,. . . . . ,$T_n$}\} where each transaction Ti D is a subset of I. 
+The support of an item is the number of transaction containing the item in the transactional database. To find frequent items, items should satisfy the minimum support in the transaction database. The downward closure property (Agarwal et al., 1993; 
+Agarwal and Srikant, 1994) is used prune the infrequent items. This property ensures that if an item is infrequent then its supper set must be infrequent. In our approach, we are targeting these 
+infrequent items. Apriori (Agarwal et al., 1993; Agarwal and Srikant, 1994) algorithm is widely used for mining frequent items and very useful in association rule mining. But candidate generation 
+and test, several database scan are the side effect of appriori algorithm.  FP-growth (Han et al., 2004) algorithm solves the problem of candidate generation and test. It requires only two database scan.\\
+
+To discover useful knowledge about numerical attributes associated with items in a transaction, Carter et al., 1997 first introduced the share-confidence model. SIP, CAC and 
+IAN (Barber and Hamilton, 2000, 2001, 2003) have been proposed but they may not discover all shared-frequent patterns. Several approaches have been also proposed to resolve the discovery of all 
+frequent items and that also maintain the downward closure property. In [], an effective approach is described,\\
+
+The existing weighted infrequent pattern mining methods consider all transactions of a database from the very beginning and requires extra database scan. Hence, they are not appropriate for data 
+stream. They can’t find recent interesting information from the dataset. Therefore, we have proposed sliding window based novel algorithm for single-pass weighted infrequent pattern mining to extract 
+the recent change of knowledge in a data stream adaptively. We have also applied the ShrFP-Tree approach to find the actual contribution of a pattern.\\

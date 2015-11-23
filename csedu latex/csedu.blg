@@ -1,0 +1,24 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: csedu.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+I was expecting a `,' or a `}'---line 44 of file Bibliography.bib
+ : 
+ : @inproceedings{leung2006dstree,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 180 of file Bibliography.bib
+ : @article{ahmed2009efficient
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 211 of file Bibliography.bib
+ : @inproceedings{wang2000efficient
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 220 of file Bibliography.bib
+ : @inproceedings{tao2003weighted
+ :                               ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "book"
+Warning--I didn't find a database entry for "dnd"
+Warning--can't use both volume and number fields in agrawal1993mining
+(There were 4 error messages)

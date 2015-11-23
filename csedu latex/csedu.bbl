@@ -1,0 +1,130 @@
+\begin{thebibliography}{10}
+
+\bibitem{agrawal1993mining}
+Rakesh Agrawal, Tomasz Imieli{\'n}ski, and Arun Swami.
+\newblock Mining association rules between sets of items in large databases.
+\newblock In {\em ACM SIGMOD Record}, volume~22, pages 207--216. ACM, 1993.
+
+\bibitem{ahmed2008shrfp}
+Chowdhury~Farhan Ahmed, Syed~Khairuzzaman Tanbeer, Byeong-Soo Jeong, and
+  Young-Koo Lee.
+\newblock Shrfp-tree: an efficient tree structure for mining share-frequent
+  patterns.
+\newblock In {\em Proceedings of the 7th Australasian Data Mining
+  Conference-Volume 87}, pages 79--86. Australian Computer Society, Inc., 2008.
+
+\bibitem{ahmed2009efficient}
+Chowdhury~Farhan Ahmed, Syed~Khairuzzaman Tanbeer, Byeong-Soo Jeong, and
+  Young-Koo Lee.
+\newblock Efficient tree structures for high utility pattern mining in
+  incremental databases.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  21(12):1708--1721, 2009.
+
+\bibitem{antonie2001application}
+Maria-Luiza Antonie, Osmar~R Zaiane, and Alexandru Coman.
+\newblock Application of data mining techniques for medical image
+  classification.
+\newblock In {\em Proceedings of the Second International Workshop on
+  Multimedia Data Mining, MDM/KDD'2001, August 26th, 2001, San Francisco, CA,
+  USA}, pages 94--101, 2001.
+
+\bibitem{cagliero2014infrequent}
+Luca Cagliero and Paolo Garza.
+\newblock Infrequent weighted itemset mining using frequent pattern growth.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  26(4):903--915, 2014.
+
+\bibitem{chang2004sliding}
+Joong~Hyuk Chang and Won~Suk Lee.
+\newblock A sliding window method for finding recently frequent itemsets over
+  online data streams.
+\newblock {\em Journal of Information science and Engineering}, 20(4):753--762,
+  2004.
+
+\bibitem{chang2005estwin}
+Joong~Hyuk Chang and Won~Suk Lee.
+\newblock estwin: Online data stream mining of recent frequent itemsets by
+  sliding window method.
+\newblock {\em Journal of Information Science}, 31(2):76--90, 2005.
+
+\bibitem{chi2004moment}
+Yun Chi, Haixun Wang, Philip~S Yu, and Richard~R Muntz.
+\newblock Moment: Maintaining closed frequent itemsets over a stream sliding
+  window.
+\newblock In {\em Data Mining, 2004. ICDM'04. Fourth IEEE International
+  Conference on}, pages 59--66. IEEE, 2004.
+
+\bibitem{cong2004farmer}
+Gao Cong, Anthony~KH Tung, Xin Xu, Feng Pan, and Jiong Yang.
+\newblock Farmer: Finding interesting rule groups in microarray datasets.
+\newblock In {\em Proceedings of the 2004 ACM SIGMOD international conference
+  on Management of data}, pages 143--154. ACM, 2004.
+
+\bibitem{haglin2007minimal}
+David~J Haglin and Anna~M Manning.
+\newblock On minimal infrequent itemset mining.
+\newblock In {\em DMIN}, pages 141--147, 2007.
+
+\bibitem{jiang2006research}
+Nan Jiang and Le~Gruenwald.
+\newblock Research issues in data stream association rule mining.
+\newblock {\em ACM Sigmod Record}, 35(1):14--19, 2006.
+
+\bibitem{leung2006dstree}
+Carson Kai-Sang Leung, Quamrul Khan, et~al.
+\newblock Dstree: a tree structure for the mining of frequent sets from data
+  streams.
+\newblock In {\em Data Mining, 2006. ICDM'06. Sixth International Conference
+  on}, pages 928--932. IEEE, 2006.
+
+\bibitem{lin2005mining}
+Chih-Hsiang Lin, Ding-Ying Chiu, Yi-Hung Wu, and Arbee~LP Chen.
+\newblock Mining frequent itemsets from data streams with a time-sensitive
+  sliding window.
+\newblock In {\em SDM}, pages 68--79. SIAM, 2005.
+
+\bibitem{manning2005new}
+Anna~M Manning and David~J Haglin.
+\newblock A new algorithm for finding minimal sample uniques for use in
+  statistical disclosure assessment.
+\newblock In {\em Data Mining, Fifth IEEE International Conference on}, pages
+  8--pp. IEEE, 2005.
+
+\bibitem{manning2008recursive}
+Anna~M Manning, David~J Haglin, and John~A Keane.
+\newblock A recursive search algorithm for statistical disclosure assessment.
+\newblock {\em Data Mining and Knowledge Discovery}, 16(2):165--196, 2008.
+
+\bibitem{metwally2006integrated}
+Ahmed Metwally, Divyakant Agrawal, and Amr~El Abbadi.
+\newblock An integrated efficient solution for computing frequent and top-k
+  elements in data streams.
+\newblock {\em ACM Transactions on Database Systems (TODS)}, 31(3):1095--1133,
+  2006.
+
+\bibitem{raissi2007towards}
+Chedy Ra{\"\i}ssi, Pascal Poncelet, and Maguelonne Teisseire.
+\newblock Towards a new approach for mining frequent itemsets on data stream.
+\newblock {\em Journal of Intelligent Information Systems}, 28(1):23--36, 2007.
+
+\bibitem{sun2008mining}
+Ke~Sun and Fengshan Bai.
+\newblock Mining weighted association rules without preassigned weights.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  20(4):489--495, 2008.
+
+\bibitem{tao2003weighted}
+Feng Tao, Fionn Murtagh, and Mohsen Farid.
+\newblock Weighted association rule mining using weighted support and
+  significance framework.
+\newblock In {\em Proceedings of the ninth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 661--666. ACM, 2003.
+
+\bibitem{wang2000efficient}
+Wei Wang, Jiong Yang, and Philip~S Yu.
+\newblock Efficient mining of weighted association rules (war).
+\newblock In {\em Proceedings of the sixth ACM SIGKDD international conference
+  on Knowledge discovery and data mining}, pages 270--274. ACM, 2000.
+
+\end{thebibliography}

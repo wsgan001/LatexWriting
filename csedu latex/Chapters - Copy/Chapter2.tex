@@ -1,0 +1,294 @@
+
+
+ \chapter{Previous Work} % THIS COMMAND MAKES A SECTION TITLE.
+ \label{Chapter 2}
+ \lhead{Chapter 2. \emph{Previous Work}}
+ This section will be added later.
+ 
+ \iffalse
+%
+In this chapter, we discuss some basic terminologies and background knowledge in graph mining. We also discuss some recent works in the field of graph mining and graph classification. Here, we highlight their working procedure and analyze the algorithms.
+% and also provide examples for better understanding of the algorithms.
+ We also include the terminologies needed to understand the approaches. 
+%
+\newtheoremstyle{remboldstyle}
+  {}{}{}{}{\bfseries}{.}{.5em}{{\thmname{#1 }}{\thmnumber{#2}}{\thmnote{ (#3)}}}
+\theoremstyle{remboldstyle}
+\newtheorem{defn}{Definition}
+%
+\section{Graph mining}
+%
+In section \ref{sec:graph_mining} of chapter 1, we have discussed about graph mining. Here we provide some basic terminologies in graph mining, which are needed to understand the following sections.
+%
+\begin{defn}[Graph having Labels]
+Given a set of vertices $V(G) = \{v_1, v_2,---, v_k\}$, a set of edges connecting some vertex pairs in $ V(G), E(G) = \{ e_h = (vi, vj) \mid vi, vj \in V (G)\} $, a set of vertex labels $ L(V (G)) = \{lb(vi) \mid \forall vi \in V(G)\} $ and a set of edge labels $L(E(G)) = \{lb(e_h) \mid \forall e_h \in E(G)\} $, then a graph G is represented as $ G = (V (G),E(G), L(V (G)), L(E(G)) ) $.
+\end{defn}
+%
+\begin{defn}[Size of a Graph]
+The $size\ of\ a\ graph$ G is usually defined by the number of vertices or number of edges of the graph.
+\end{defn}
+%
+\begin{defn}[ Graph Transaction and Graph Dataset]
+A graph G = (V(G), E(G), L(V(G)), L(E(G))) is a $transaction$, and $graph\ dataset$ $GD$ is a set of transactions, where GD = $ \{ G_1,G_2,---,G_n \}$
+\end{defn}
+%
+\begin{defn}[Support and Confidence]
+Given a graph $G_s$, the $support$ of $G_s$ is defined as\\
+$sup(G_s) = \dfrac
+{number\ of\ graph\ transactions\ G\ where\ G_s \subset G \in GD}
+{total\ number\ of\ graph\ transactions\ G \in GD }$
+\\ \\
+Given two subgraphs $G_b$ and $G_h$, the $confidence$ of the association rule
+$G_b \Rightarrow G_h$ is defined as \\
+$conf(Gb \Rightarrow Gh) = \dfrac
+{number\ of\ graphs\ G\ where\ G_b \cup G_h \subset G \in GD}
+{number\ of\ graphs\ G\ where\ G_b \subset G \in GD}$ \\
+\end{defn}
+%
+\begin{defn}[Isomorphism and Subgraph Isomorphism]
+An $isomorphism$ is a function $f:V(G) \rightarrow V(G')$, such that 
+$ \forall u \in V(G), l_G(u)=l_G'(f(u)) $, and
+$ \forall (u,v) \in E(G), (f(u),f(v)) \in E(G')$ and $l_G(u,v)=l_G'(f(u),f(v))$
+%
+A $subgraph\ iso- morphism$ from G to G' is an isomorphism from G to a subgraph of G'.
+\end{defn}
+%
+\begin{defn}[Frequent Subgraph and Frequent Subgraph Mining]
+Given a graph dataset $GD = \{G_1,G_2,---,G_n\}$, and a minimum support threshold $minSup$, let\\
+%
+$ \alpha(g,G)$ = \Bigg \{ \begin{tabular}{l}
+1 if g is isomorphic to a subgraph of G,\\
+0 if g is not isomorphic to any subgraph of G\\
+\end{tabular}
+\\
+%
+Then,\\
+\centerline { $ \sigma(g,GS) = \Sigma_{G_i \in GS}\ \alpha(g,G_i)$}\\
+where $\sigma(g,GS)$ denotes the frequency of g in GS.\\
+Here, g is called a $frequent\ subgraph$ if its frequency is greater than or equal to $minSup$.
+$Frequent\ subgraph\ mining$ is to find every graph g, such that $\sigma(g,GS)$ is greater than or equal to $minSup$.
+\end{defn}
+%
+\begin{defn}[Embedding]
+Given two graphs f and g, suppose $f \subseteq g$ by a subgraph isomorphic function $\alpha$. The subset of vertices of $V(g), V(g)_{\alpha} = \{ \alpha(u)|u Å\in V(f) \}$, is a vertex embedding of f in g. In a similar way, the subset of edges of $E(g), E(g)_{\alpha} = \{(\alpha(v), \alpha(u))|(v, u) \in E(f)\}$ is an edge embedding of f in g.
+\end{defn}
+%
+%
+%\subsubsection{FSG}
+%
+%\subsection{gSpan}
+%
+\section{Graph Classification}
+%
+\subsection{GAIA}
+%
+\textbf{[GAIA: Graph Classification Using Evolutionary Computation]}\\
+In the paper \cite{gaia}, the authors have proposed an algorithm for performing classification of graphs in a graph dataset.
+\par The key features of gaia are the following:
+\begin{itemize}
+\item It proposes a subgraph encoding method using the notion of conditional canonical adjacency matrix.
+\item It proposes a feature selection method that applies evolutionary computation.
+\end{itemize}
+%
+\subsubsection{Terminologies}
+%
+\begin{defn}[Embedding code]
+Given a subgraph isomorphism $f: V(g) \to V(g')$, the node set $\{f(u) | u \in V(g)\}$ is a vertex embedding of g in g'. A sorted embedding organizes the nodes in an vertex embedding in increasing order of their node IDs. An $embedding\ code$ B is the concatenation of the graph ID of g' and the sorted embedding. The first element in an embedding code is the graph ID and the remaining elements are node IDs.
+\end{defn}
+%
+\begin {defn}[Adjacency matrix]
+Given an embedding code B of pattern p based on a subgraph isomorphism f, the adjacency matrix M of p is a $\mid V \mid \times \mid V \mid $ matrix, where V is the node set of pattern p and each entry of M satisfies:\\
+%
+  M[i,j]=  \Bigg \{ \begin{tabular}{c}
+label(B[i]) if i = j, or \\
+label(B[i],B[j]) if $i \ne j$ \\
+\end{tabular} 
+
+
+         
+%
+\end {defn}
+%
+\begin {defn}[matrix code]
+The matrix code of a subgraph pattern p is the sequence formed by row-wise concatenation of the lower triangle entries of an adjacency matrix M of p.
+\end {defn}
+%
+\begin {defn}[Conditional Canonical Adjacency Matrix]
+Conditional canonical adjacency matrix of a subgraph pattern p is the adjacency matrix corresponding to the lexicographically smallest embedding code of p.
+\end {defn}
+%
+\begin {defn}[CCAM code]
+It is the matrix code corresponding to the conditional canonical adjacency matrix of p.
+\end {defn}
+%
+\subsubsection{Subgraph encoding method}
+%
+The computation is completed in three steps:
+\begin{itemize}
+\item Retrieve embeddings with the smallest graph ID.
+\item For each embedding, sort the node IDs in ascending order and keep track of the lexicographically smallest embedding code B.
+\item Construct the conditional canonical adjacency matrix according to B and generate the CCAM code.
+\end{itemize}
+%
+\subsubsection{Fitness function}
+%
+\begin {defn}[Positive frequency]
+Positive frequency of a subgraph pattern p, \\ \\
+$(r^+(p)) =\dfrac{ number\ of\ positive\ graphs\ containing\ p}{ total\ number\ of\ positive\ graphs\ in\ the\ database}$ \\
+\end {defn}
+%
+\begin {defn}[Negative frequency]
+Negative frequency of a subgraph pattern p, \\ \\
+$(r^-(p)) =\dfrac{ number\ of\ negative\ graphs\ containing\ p}{ total\ number\ of\ negative\ graphs\ in\ the\ database}$
+\end {defn}
+%
+\begin{defn}[Log Ratio Score]
+$log\ ratio\ score\ of\ pattern\ p = log \dfrac{r^+(p)}{r^+(p)}$
+\end{defn}
+%
+\begin{defn}[Score Per Edge]
+$score\ per\ edge\ of\ pattern\ p = \dfrac {log \dfrac{r^+(p)}{r^+(p)} } {m(p)}$ \\
+Where, m(p) = number of edges in p
+\end{defn}
+%
+\subsubsection{Framework of the pattern evolution}
+For each graph $g_i$ in the positive graph set $G^+$, a representative subgraph pattern and a list of up to s candidate subgraph patterns is stored. Only subgraphs of $g_i$ with positive log ratio scores can be its representative or in its candidate list. The representative pattern has the highest log ratio score among all patterns that are subgraphs of gi and found during pattern evolution. Although one pattern can be subgraphs of several positive graphs, each pattern can only be in one candidate list at any time. The candidate lists are initialized with one-edge patterns.
+The total number of subgraph patterns that the candidate lists can hold at any time is the product of s and $\mid G+ \mid$, Motivation behind this is to cause selection pressure to speed up the convergence of evolutionary search.
+%
+\subsubsection{Pattern extension}
+Probability of pattern p in candidate list of $g_i$ to be selected for extension is: \\ \\
+$ \dfrac{log\ ratio\ score\ (p)}{\Sigma _{p'\ is\ in\ the\ candidate\ list\ of\ g_i\ } log\ ratio\ score(p')}$ \\
+\par The intuition here is that candidate patterns with higher scores are more likely to be extended to patterns with high scores. \\
+%
+To perform pattern evolution, GAIA runs for n iterations, where n is a parameter set by the user. During each iteration, one pattern is selected from each candidate list for extension. For an extension operation of pattern p, GAIA generates a pattern set X(p) and each pattern p' in X(p) has one new edge attached to p. A lookup table is used to determine whether a pattern has already been generated to avoid repetitive examination of the same pattern. \\
+%
+If pattern p extends into pattern p' and the log ratio score of p' is less than that of p, p' is eliminated from survival and further extension. If the score per edge function decreases steadily during successive extensions, these extensions are also pruned. 
+%
+\subsubsection{Pattern migration and competition}
+%
+A pattern that has already been extended are removed from the candidate lists. Some pattern in the candidate list may migrate to the candidate list of another graph if such migration will increase its chance of survival. Let p be the candidate pattern for migration and G(p) be the set of graphs containing p and $g_i$ be the graph in G(p) which has the lowest value of \\ 
+%
+${\Sigma _{p'\ is\ in\ the\ candidate\ list\ of\ g_i\ } log\ ratio\ score(p')}$ 
+%
+\par p will migrate to the candidate list of $g_i$. If the candidate list of $g_i$ has vacant positions, then p can move into one vacant position directly. If the candidate list is already full, then p has to compete with the "resident" patterns in the list. The score of p is compared against the score of a pattern p', which is randomly selected with probability 1/s from the candidate list. If the score of p is higher, then p' is eliminated and p takes the position of p', otherwise, p is eliminated.
+%
+\subsubsection{Generating association rules}
+Association rule is defined as a classification rule A in the form of $p\to L$, where p is a subgraph pattern and L is the class label. If an object has the subgraph pattern p, then it is classified as L. The output of GAIA is an association rule set A. The accuracy of the association rule set A is calculated as follows:\\ \\
+$Sensitivity\ = \dfrac{number\ of\ prediction\ that\ are\ positive\ and\ correct}{number\ of\ graphs\ that\ are\ positive}$ \\ \\
+%
+$Specificity\ = \dfrac{number\ of\ prediction\ that\ are\ negative\ and\ correct}{number\ of\ graphs\ that\ are\ negative}$ \\ \\
+%
+$Normalized\ accuracy\ = \dfrac{sensitivity + specificity}{2}$ \\ \\
+%
+\textbf {Association rule generation algorithm}
+%
+\begin{itemize}
+\item The representative subgraph patterns are sorted by their log ratio scores in decreasing order 
+\item	Then the representative patterns are traversed in the sorted order 
+\item	For each representative pattern p
+%
+\begin{itemize}{
+\item	Evaluate whether inclusion of a new association rule $p \to positive$ in the resulting association rule set A can increase the normalized accuracy
+\item	The new rule $p \to positive$ is to be included in A if the normalized accuracy increases}
+\end{itemize}
+\item	The algorithm terminates when all representative patterns have been tested
+\end{itemize}
+%
+\subsubsection{Analysis}
+%
+GAIA proposes a subgraph encoding method that uses embedding information. The complexity of the method is O(v2) , where v is the number of nodes in the pattern. It also proposes a feature selection method based on evolutionary computation approach.
+\\
+But while calculating the fitness function, it only considers its own occurrence in the positive/negative graphs. But it does not take any other parameter into consideration. There are various important parameters which can increase the performance of the feature selection method, if taken into account.
+%
+\subsection{D\&D}
+%
+\textbf{[Graph Classification: A Diversified Discriminative Feature Selection Approach]}\\
+The authors of D\&D \cite{dnd} propose a graph classification model with a new score called diversified discriminative score. They highlight two issues with the existing feature selection approaches, namely:\\
+%
+\textbf{Highly overlapped features:}
+%
+The discriminative features selected can be possibly highly overlapped.
+Two discriminative features, $f_i$ and $f_j$ , may share a large common part.
+They may not lead to a good classification accuracy, because one of them is redundant in a sense that they appear frequently together in graphs in D. \\
+%
+\textbf{Missing Important Features:}
+Some important features may be missed out as the number of discriminative features selected for building a classifier is often restricted.\\
+% 
+To remove these issues, they propose a approach which explores the additional value of the diversity together with the discriminativity. It also explores how to reduce the overlapping between a feature and a set of features, based on edge-cover.
+%
+\subsubsection{Terminologies}
+%
+\begin {defn}[Graph coverage]
+Given a graph database $D = \{g_1, g_2,---, g_n \}$ and a feature f, a graph $g_i \in D$ is covered by f if, there is an edge embedding of f in $g_i$.
+\end {defn}
+%
+\begin {defn}[Edge cover  $E_c ( f,g ) $]
+It is the set of edges in g covered by feature f.
+\end {defn}
+%
+\begin {defn}[Feature edge cover $C_e(f)$]
+It is the set of edges that are covered by f in all graphs in D.\\
+\centerline{$C_e(f) = \cup_{g_i \in sup(f)} E_c(f, g_i)$}
+\end {defn}
+%
+\begin {defn}[Edge cover score $S_c ( f ) $]
+It is the number of edges covered by f in all graphs in D.\\
+\centerline{ $S_c(f) = \Sigma_{g_i \in sup(f)} |E_c(f, g_i)|$}
+\end {defn}
+%
+\begin {defn}[Edge cover probability $P_c ( f ) $]
+Edge-cover probability of a feature f regarding to
+the entire edge set in D is,
+$P_c(f) = \dfrac{|C_e(f)|}{ \Sigma _{g_i\in D} |E(g_i)|} $
+\end {defn}
+%
+\subsubsection{Fitness Score}
+%
+In this paper, they propose a score that calculates the diversity of a discriminative subgraph. Diversity of a feature $f_{m}$ with respect to a set of selected features $F_{m-1}$ is,\\
+%
+$p_d(f_m) = p_c(F_m) - p_c(F_{m-1})$\\ \\
+%
+$ = \dfrac {\mid C_e(f_m) - C_e(f_m Å\cap F_{m-1}) \mid }{\Sigma _{g_i \in D} \mid E(g_i) \mid} $ \\ \\
+%
+$ = \dfrac {\mid C_e(f_m) - \Sigma ^{m-1} _{j=1} C_e(f_m \cap f_j ) \mid}{\Sigma _{g_i \in D} \mid E(g_i) \mid}$ \\ \\
+%
+$= \dfrac {\Sigma _{g_i \in sup(f_m)} \mid E_c(f_m, g_i)\mid}{\Sigma _{g_i \in D} \mid E(g_i) \mid} -
+\dfrac { \Sigma _{g_i \in sup(f_m)} \mid \cup^{m - 1} _{j=1} (E_c(f_m, g_i) Å\cap E_c(f_j, g_i))\mid}{\Sigma _{g_i \in D} \mid E(g_i) \mid}$ \\ \\
+%
+Let,\\
+$p^+ _d(f_m)$ = the diversity of $f_m$ for the set of positive graphs $(D^+)$,\\
+% 
+$p^- _d(f_m)$ = the diversity of $f_m$ for the set of negative graphs $(D^-)$ \\
+%
+Then the diversified discriminative score of feature $f_m$, \\ \\
+\centerline{$score_d(f_m) = log\dfrac {p^{+} _{d} (f_m)}{p^{-}_{d} (f_m)}$}
+%
+\subsubsection{D\&D algorithm}
+%
+\begin{algorithm}
+ \caption{D\&D (D,F,K)}
+  Input: A graph database $D = (D^+, D^-)$,\\
+             a set of frequent subgraphs F, \\
+                the number of features, K\\
+Output: a selected feature set $F_s$
+\begin{algorithmic}[1]
+ \State {$f \gets argmax _{f \in F} \ logRatioScore(f);$\\
+ $Fs \gets {f};$}
+\While {$|F_s| \le k$}
+
+ \State $f \gets argmax _{f \in F/F_s} \ score_d(f);$
+ \State $F_s \gets F_s \cup{f};$
+\EndWhile	\\
+\Return $F_s$;
+\end{algorithmic}
+ \end{algorithm}
+%
+\subsubsection{Analysis}
+%
+D\&D proposes a diversified discriminative score based on edge cover probability. The score reduces selection of discriminative subgraphs which are overlapped with each other.\\ 
+Using this diversified discriminative score, they provide an algorithm that selects a number of discriminative subgraphs as features based on the score.  The complexity of the algorithm is O(K.F), where K = number of features to be selected in the feature selection phase and F = is the set of discriminative subgraph from which the features will be selected.\\
+The accuracy of D\&D is still not satisfactory. There is scope of improvement in terms of accuracy which can be achieved by taking the proper parameters into account and incorporating them in the fitness score.
+%
+\section{Summary}
+%\end{document} % THE INPUT FILE ENDS LIKE THIS
+\fi

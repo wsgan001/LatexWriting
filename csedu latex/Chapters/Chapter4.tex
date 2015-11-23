@@ -1,0 +1,78 @@
+ % SMALL.TEX -- Released 5 July 1985
+ % USE THIS FILE AS A MODEL FOR MAKING YOUR OWN LaTeX INPUT FILE. % EVERYTHING TO THE RIGHT OF A % IS A REMARK TO YOU AND IS IGNORED
+ % BY LaTeX.
+ %
+ % WARNING! DO NOT TYPE ANY OF THE FOLLOWING 10 CHARACTERS EXCEPT AS
+ % DIRECTED: & $ # % _ { } ^ ~ \
+
+% \documentclass[12pt,a4paper,oneside]{report}% YOUR INPUT FILE MUST CONTAIN THESE
+
+ %\begin{document} % TWO LINES PLUS THE \end COMMAND AT
+ % THE END
+
+\chapter{Performance Evaluation}
+  % THIS COMMAND MAKES A SECTION TITLE.
+\label{Chapter 4}
+\lhead{Chapter 4. \emph{Performance Evaluation}}
+%
+In this chapter, we compare the performance of the proposed approach with an existing approach, IWIM Using FP Growth \cite{dnd}. We apply both the proposed approach and the existing approach to real world datasets. We perform several experiments to prove the accuracy of the proposed approach. 
+\section{Experimental Settings}
+%
+All experiments of the proposed approach and existing IWIM Using FP Growth are conducted on a machine with 3.30 GHz Intel CORE i3 processor, 4 GB ram and Windows OS. Both the algorithms have been implemented using Java programming language. 
+\section{Dataset Characteristics}
+%
+We perform a performance study in our experiments using real world datasets. We have also experimented with synthetic dataset.
+%The datasets are collected from $PubChem$ \cite{pubchem}. There are total 11 graph datasets, the characteristics of the datasets are shown in Table \ref{table:dataset}.  The datasets consists of chemical compounds, where each dataset belongs to a certain type of cancer screen with the outcome active or inactive.  In our experiment,  the active graphs are treated as positive labeled graph and inactive outcomes are treated as negative labeled graph.
+%
+%\begin{adjustbox}
+%{width=\linewidth}
+
+
+%\begin{center}
+%\begin{table}[htbp]
+%\begin{tabular}{|c|c|c|m{3cm}|m{2cm}|m{2cm}|}
+%  \hline
+%  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+% \normalsize Dataset & Assay ID & Assay name & Tumor description & Total number of actives & Total number of inactives\\
+%  \hline
+%  1 & 83 & MCF-7 & Breast & 2287 & 25510 \\
+%  \hline
+%  2 & 123 & MOLT-4 & Leukemia & 3123 & 36741 \\
+%  \hline
+%  3 & 1 & NCI-H23 & Nol-Small Cell Lung & 2047 & 38410 \\
+%  \hline
+%  4 & 109 & OVCAR-8 & Ovarian & 2072 & 38551 \\
+%  \hline
+%  5 & 330 & P338 & Leukemia & 2194 & 38799 \\
+%  \hline
+%  6 & 41 & PC-3 & Prostate & 1568 & 25967 \\
+%  \hline
+%  7 & 47 & SF-295 & Central Nerv Sys & 2018 & 38350 \\
+%  \hline
+%\end{tabular}
+%\caption{Characteristics of dataset} \label{table:dataset}
+%%\vspace{-2mm}
+%\end{table}
+%\end{center}
+
+
+%
+\section{Performance Metrics}
+%
+We have considered the following performance metrics as parameter to evaluate the performance of the proposed algorithm:\\
+\textbf{Accuracy:} It is the degree of correctness of the result of a calculation. In the case of graph classification, accuracy means the precision with which the graphs are classified.\\
+\textbf{Runtime:} It is the time a program takes to produce the output. The matrices are following:
+\begin{itemize}
+\item Tree construction time parameter
+\item Mining time parameter
+\item Total time (Tree construction, Mining, Frequent removal) parameter
+\end {itemize}
+\textbf{Window Size Variation:} Depending on window size, we have compared the result. \\
+%\subsection{Memory Usage}
+%
+\section{Performance Comparison}
+%
+%
+\section{Summary}
+%
+% \end{document} % THE INPUT FILE ENDS LIKE THIS

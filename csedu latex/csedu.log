@@ -1,0 +1,1137 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.31)  23 NOV 2015 00:14
+entering extended mode
+**C:/Users/CSEDU/Desktop/csedu*latex*OLD/csedu.tex
+("C:/Users/CSEDU/Desktop/csedu latex OLD/csedu.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.cls"
+
+LaTeX Warning: You have requested document class `csedu',
+               but the document class provides `Thesis'.
+
+Document Class: Thesis 2007/22/02 v1.0 LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\CSEDU\Desktop\csedu latex OLD\setspace.sty"
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\ieeepes\vmargin.sty
+Package: vmargin 1999/06/01
+
+Package `vmargin', V2.2, <1999/06/01>
+\PaperWidth=\dimen103
+\PaperHeight=\dimen104
+) ("C:\Users\CSEDU\Desktop\csedu latex OLD\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen105
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks17
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amscd.sty"
+Package: amscd 1999/11/29 v2.0
+\athelp@=\toks19
+\minaw@=\dimen114
+\bigaw@=\dimen115
+\minCDarrowwidth=\dimen116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\classes\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks25
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+\c@example=\count100
+\c@theorem=\count101
+
+("C:\Users\CSEDU\Desktop\csedu latex OLD\caption.sty"
+Package: caption 2004/05/16 v3.0b Customising captions (AS)
+\captionmargin=\dimen117
+\captionwidth=\dimen118
+\captionindent=\dimen119
+\captionparindent=\dimen120
+\captionhangindent=\dimen121
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks26
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
+\Gread@gobject=\count102
+))
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 436.
+))
+("C:\Users\CSEDU\Desktop\csedu latex OLD\subfigure.sty"
+Package: subfigure 1995/03/06 v2.0 subfigure package
+
+Package: subfigure 1995/03/06 v2.0
+\c@subfigure=\count103
+\c@lofdepth=\count104
+\c@subtable=\count105
+\c@lotdepth=\count106
+) ("C:\Users\CSEDU\Desktop\csedu latex OLD\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen124
+\lightrulewidth=\dimen125
+\cmidrulewidth=\dimen126
+\belowrulesep=\dimen127
+\belowbottomsep=\dimen128
+\aboverulesep=\dimen129
+\abovetopsep=\dimen130
+\cmidrulesep=\dimen131
+\cmidrulekern=\dimen132
+\defaultaddspace=\dimen133
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen134
+\@belowrulesep=\dimen135
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen136
+)
+("C:\Users\CSEDU\Desktop\csedu latex OLD\rotating.sty"
+Package: rotating 1995/08/22 2.10 Rotation package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\r@tfl@t=\count111
+\rot@float@box=\box28
+)
+(C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count112
+\lst@gtempboxa=\box29
+\lst@token=\toks27
+\lst@length=\count113
+\lst@currlwidth=\dimen137
+\lst@column=\count114
+\lst@pos=\count115
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count116
+\lst@lineno=\count117
+\lst@maxwidth=\dimen140
+
+("C:\Users\CSEDU\Desktop\csedu latex OLD\lstpatch.sty"
+
+***
+*** This is a patch for listings 1.3, but you're using
+*** version 1.6.
+***
+*** Patch file not loaded.
+***
+
+) (C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count118
+\lst@skipnumbers=\count119
+\lst@framebox=\box30
+)
+(C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Users\CSEDU\Desktop\csedu latex OLD\lstpatch.sty"
+
+***
+*** This is a patch for listings 1.3, but you're using
+*** version 1.6.
+***
+ *** Patch file not loaded.
+***
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2011/03/09 v6.82d Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty"
+Package: pdfescape 2010/03/01 v1.9 Provides hex, PDF name and string conversion
+s (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty"
+Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty"
+Package: xcolor-patch 2009/12/12 xcolor patch
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty"
+Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
+)
+\@linkdim=\dimen141
+\Hy@linkcounter=\count120
+\Hy@pagecounter=\count121
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2011/03/09 v6.82d Hyperref: PDFDocEncoding definition (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty"
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+\Hy@SavedSpaceFactor=\count122
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 3921.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3921.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 3921
+.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 3921.
+Package hyperref Info: Option `colorlinks' set `true' on input line 3921.
+Package hyperref Info: Option `unicode' set `true' on input line 3921.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
+File: puenc.def 2011/03/09 v6.82d Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 3921.
+Package hyperref Info: Hyper figures OFF on input line 4025.
+Package hyperref Info: Link nesting OFF on input line 4030.
+Package hyperref Info: Hyper index ON on input line 4033.
+Package hyperref Info: Plain pages OFF on input line 4040.
+Package hyperref Info: Backreferencing OFF on input line 4045.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4263.
+\c@Hy@tempcnt=\count123
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4616.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty"
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty"
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count124
+\Field@Width=\dimen142
+\Fld@charsize=\dimen143
+Package hyperref Info: Hyper figures OFF on input line 5700.
+Package hyperref Info: Link nesting OFF on input line 5705.
+Package hyperref Info: Hyper index ON on input line 5708.
+Package hyperref Info: backreferencing OFF on input line 5715.
+Package hyperref Info: Link coloring ON on input line 5718.
+Package hyperref Info: Link coloring with OCG OFF on input line 5725.
+Package hyperref Info: PDF/A mode OFF on input line 5730.
+LaTeX Info: Redefining \ref on input line 5770.
+LaTeX Info: Redefining \pageref on input line 5774.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
+)
+\Hy@abspage=\count125
+\c@Item=\count126
+\c@Hfootnote=\count127
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2011/03/09 v6.82d Hyperref driver for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty"
+Package: atveryend 2010/03/24 v1.5 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+)
+\Fld@listcount=\count128
+\c@bookmark@seq@number=\count129
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty"
+Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+71.
+)
+\Hy@SectionHShift=\skip58
+)
+\c@dummy=\count130
+)
+("C:\Users\CSEDU\Desktop\csedu latex OLD\natbib.sty"
+Package: natbib 1998/07/14 6.8c (PWD)
+\bibhang=\skip59
+\bibsep=\skip60
+LaTeX Info: Redefining \cite on input line 467.
+\c@NAT@ctr=\count131
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
+\verbatim@in@stream=\read1
+)
+("C:\Users\CSEDU\Desktop\csedu latex OLD\vector.sty"
+Package: vector 1994/09/16 v1.0 vector macros for LaTeX2e (nde)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count132
+\calc@Bcount=\count133
+\calc@Adimen=\dimen144
+\calc@Bdimen=\dimen145
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count134
+\calc@Cskip=\skip63
+)
+\c@vec@elem=\count135
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 14.
+
+(C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count136
+\float@exts=\toks30
+\float@box=\box31
+\@float@everytoks=\toks31
+\@floatcapt=\box32
+)
+\@float@every@algorithm=\toks32
+\c@algorithm=\count137
+)
+(C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algpseudocode
+.sty
+Package: algpseudocode 
+
+(C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithmicx\algorithmicx.
+sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count138
+\c@ALG@rem=\count139
+\c@ALG@nested=\count140
+\ALG@tlm=\skip64
+\ALG@thistlm=\skip65
+\c@ALG@Lnr=\count141
+\c@ALG@blocknr=\count142
+\c@ALG@storecount=\count143
+\c@ALG@tmpcounter=\count144
+\ALG@tmplength=\skip66
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen146
+\extrarowheight=\dimen147
+\NC@list=\toks33
+\extratabsurround=\skip67
+\backup@length=\skip68
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen148
+\TX@old@table=\dimen149
+\TX@old@col=\dimen150
+\TX@target=\dimen151
+\TX@delta=\dimen152
+\TX@cols=\count145
+\TX@ftn=\toks34
+)
+("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+(C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip69
+\RaggedLeftLeftskip=\skip70
+\RaggedRightLeftskip=\skip71
+\CenteringRightskip=\skip72
+\RaggedLeftRightskip=\skip73
+\RaggedRightRightskip=\skip74
+\CenteringParfillskip=\skip75
+\RaggedLeftParfillskip=\skip76
+\RaggedRightParfillskip=\skip77
+\JustifyingParfillskip=\skip78
+\CenteringParindent=\skip79
+\RaggedLeftParindent=\skip80
+\RaggedRightParindent=\skip81
+\JustifyingParindent=\skip82
+)
+Package caption Info: float package v1.2 (or newer) detected on input line 22.
+Package caption Info: listings package v1.2 (or newer) detected on input line 2
+2.
+Package caption Info: rotating package v2.0 (or newer) detected on input line 2
+2.
+
+(C:\Users\CSEDU\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count146
+\scratchdimen=\dimen153
+\scratchbox=\box33
+\nofMPsegments=\count147
+\nofMParguments=\count148
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen154
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
+\everyMPtoPDFconversion=\toks36
+)
+\c@lstlisting=\count152
+\AtBeginShipoutBox=\box34
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package hyperref Info: Link coloring ON on input line 22.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+)
+\c@section@level=\count153
+)
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
+
+("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.out")
+("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.out")
+\@outlinefile=\write3
+
+------------------------------------------------------------------------------
+ Title Page
+------------------------------------------------------------------------------
+Package epstopdf Info: Source file: <Figures/logo.eps>
+(epstopdf)                    date: 2009-07-21 10:37:04
+(epstopdf)                    size: 62347 bytes
+(epstopdf)             Output file: <Figures/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-06-07 00:18:42
+(epstopdf)                    size: 22161 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/logo-eps-converted-
+to.pdf Figures/logo.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/logo-eps-converted-to.pdf, id=123, 871.255pt x 1094.0875pt>
+File: Figures/logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/logo-eps-converted-to.pdf> [1
+
+
+
+{C:/Users/CSEDU/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/CS
+EDU/Desktop/csedu latex OLD/Figures/logo-eps-converted-to.pdf>]
+------------------------------------------------------------------------------
+ Declaration of Authorship
+------------------------------------------------------------------------------
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \hbox (56.96286pt too wide) in paragraph at lines 88--88
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+
+ []
+
+[1
+
+]
+------------------------------------------------------------------------------
+ Abstract Page
+------------------------------------------------------------------------------
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[2
+
+]
+------------------------------------------------------------------------------
+ Acknowledgements
+------------------------------------------------------------------------------
+[3
+
+]
+------------------------------------------------------------------------------
+ Table of Contents
+------------------------------------------------------------------------------
+("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.toc" [4
+
+
+])
+\tf@toc=\write4
+ [5]
+------------------------------------------------------------------------------
+ List of Figures
+------------------------------------------------------------------------------
+("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.lof")
+\tf@lof=\write5
+ [6
+
+
+]
+------------------------------------------------------------------------------
+ List of Tables
+------------------------------------------------------------------------------
+("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.lot")
+\tf@lot=\write6
+ [7
+
+
+]
+("C:\Users\CSEDU\Desktop\csedu latex OLD\Chapters\Chapter1.tex"
+Chapter 1.
+------------------------------------------------------------------------------
+ 1 Introduction
+------------------------------------------------------------------------------
+[1
+
+
+
+
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--57
+
+ []
+
+[2] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--67
+
+ []
+
+
+Package natbib Warning: Citation `book' on page 4 undefined on input line 94.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--138
+
+ []
+
+[5]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+) [6] ("C:\Users\CSEDU\Desktop\csedu latex OLD\Chapters\Chapter2.tex"
+[7]
+Chapter 2.
+------------------------------------------------------------------------------
+ 2 Previous Works
+------------------------------------------------------------------------------
+Missing character: There is no í in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no î in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--16
+
+ []
+
+[8
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+
+ []
+
+Missing character: There is no í in font cmr12!
+)
+Underfull \hbox (badness 10000) in paragraph at lines 32--184
+
+ []
+
+("C:\Users\CSEDU\Desktop\csedu latex OLD\Chapters\Chapter3.tex" [10]
+Chapter 3.
+------------------------------------------------------------------------------
+ 3 Proposed Approach
+------------------------------------------------------------------------------
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[11
+
+]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no œ in font cmr12!
+Missing character: There is no µ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
+
+ []
+
+[13]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Package epstopdf Info: Source file: <Figures/01.eps>
+(epstopdf)                    date: 2015-11-17 21:46:27
+(epstopdf)                    size: 26386545 bytes
+(epstopdf)             Output file: <Figures/01-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-17 22:05:28
+(epstopdf)                    size: 150987 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/01-eps-converted-to
+.pdf Figures/01.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+ <Figures/01-eps-converted-to.pdf, id=337, 164.615pt x 166.6225pt>
+File: Figures/01-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/01-eps-converted-to.pdf>
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 71--92
+[]$[]$  $[]$
+ []
+
+Package epstopdf Info: Source file: <Figures/02.eps>
+(epstopdf)                    date: 2015-11-17 21:51:39
+(epstopdf)                    size: 62304671 bytes
+(epstopdf)             Output file: <Figures/02-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-17 22:06:01
+(epstopdf)                    size: 295935 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/02-eps-converted-to
+.pdf Figures/02.eps>
+(epstopdf)             \includegraphics on input line 120.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/02-eps-converted-to.pdf, id=339, 307.1475pt x 209.78375pt>
+File: Figures/02-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/02-eps-converted-to.pdf>
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 101--123
+[]$[]$  $[]$
+ []
+
+Package epstopdf Info: Source file: <Figures/03.eps>
+(epstopdf)                    date: 2015-11-17 21:52:14
+(epstopdf)                    size: 62304671 bytes
+(epstopdf)             Output file: <Figures/03-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-17 22:06:36
+(epstopdf)                    size: 293724 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/03-eps-converted-to
+.pdf Figures/03.eps>
+(epstopdf)             \includegraphics on input line 151.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/03-eps-converted-to.pdf, id=342, 307.1475pt x 209.78375pt>
+File: Figures/03-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/03-eps-converted-to.pdf>
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 132--154
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--158
+
+ []
+
+[14 <C:/Users/CSEDU/Desktop/csedu latex OLD/Figures/01-eps-converted-to.pdf>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Package epstopdf Info: Source file: <Figures/04.eps>
+(epstopdf)                    date: 2015-11-17 22:04:11
+(epstopdf)                    size: 72997645 bytes
+(epstopdf)             Output file: <Figures/04-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-17 22:07:16
+(epstopdf)                    size: 330939 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/04-eps-converted-to
+.pdf Figures/04.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/04-eps-converted-to.pdf, id=352, 360.34625pt x 209.78375pt>
+File: Figures/04-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/04-eps-converted-to.pdf>
+Overfull \hbox (50.0965pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 166--188
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--192
+
+ []
+
+[15 <C:/Users/CSEDU/Desktop/csedu latex OLD/Figures/02-eps-converted-to.pdf> <C
+:/Users/CSEDU/Desktop/csedu latex OLD/Figures/03-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/05.eps>
+(epstopdf)                    date: 2015-11-17 22:36:45
+(epstopdf)                    size: 40861014 bytes
+(epstopdf)             Output file: <Figures/05-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-17 22:42:04
+(epstopdf)                    size: 200800 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/05-eps-converted-to
+.pdf Figures/05.eps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/05-eps-converted-to.pdf, id=365, 221.82875pt x 190.7125pt>
+File: Figures/05-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/05-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <Figures/06.eps>
+(epstopdf)                    date: 2015-11-17 21:58:42
+(epstopdf)                    size: 41685497 bytes
+(epstopdf)             Output file: <Figures/06-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-17 22:35:22
+(epstopdf)                    size: 207652 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/06-eps-converted-to
+.pdf Figures/06.eps>
+(epstopdf)             \includegraphics on input line 224.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/06-eps-converted-to.pdf, id=367, 226.8475pt x 190.7125pt>
+File: Figures/06-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/06-eps-converted-to.pdf>
+Overfull \hbox (50.0965pt too wide) in paragraph at lines 224--225
+ [][] 
+ []
+
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 205--227
+[]$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--231
+
+ []
+
+[16 <C:/Users/CSEDU/Desktop/csedu latex OLD/Figures/04-eps-converted-to.pdf> <C
+:/Users/CSEDU/Desktop/csedu latex OLD/Figures/05-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/07.eps>
+(epstopdf)                    date: 2015-11-17 22:03:02
+(epstopdf)                    size: 41685497 bytes
+(epstopdf)             Output file: <Figures/07-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-17 22:35:46
+(epstopdf)                    size: 195239 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/07-eps-converted-to
+.pdf Figures/07.eps>
+(epstopdf)             \includegraphics on input line 234.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/07-eps-converted-to.pdf, id=380, 226.8475pt x 190.7125pt>
+File: Figures/07-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/07-eps-converted-to.pdf> [17 <C:/Users/CSEDU/Desktop/csedu latex O
+LD/Figures/06-eps-converted-to.pdf> <C:/Users/CSEDU/Desktop/csedu latex OLD/Fig
+ures/07-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/10.eps>
+(epstopdf)                    date: 2015-11-17 22:02:43
+(epstopdf)                    size: 4952427 bytes
+(epstopdf)             Output file: <Figures/10-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-19 00:44:13
+(epstopdf)                    size: 33347 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/10-eps-converted-to
+.pdf Figures/10.eps>
+(epstopdf)             \includegraphics on input line 254.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/10-eps-converted-to.pdf, id=400, 72.27pt x 71.26625pt>
+File: Figures/10-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/10-eps-converted-to.pdf>
+Package epstopdf Info: Source file: <Figures/09.eps>
+(epstopdf)                    date: 2015-11-17 22:02:35
+(epstopdf)                    size: 8559656 bytes
+(epstopdf)             Output file: <Figures/09-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-19 00:44:37
+(epstopdf)                    size: 53071 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/09-eps-converted-to
+.pdf Figures/09.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/09-eps-converted-to.pdf, id=401, 73.27374pt x 121.45375pt>
+File: Figures/09-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/09-eps-converted-to.pdf>
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--282
+[]$[]$  $[]$
+ []
+
+Package epstopdf Info: Source file: <Figures/08.eps>
+(epstopdf)                    date: 2015-11-17 22:03:57
+(epstopdf)                    size: 21785893 bytes
+(epstopdf)             Output file: <Figures/08-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-11-19 00:44:55
+(epstopdf)                    size: 110638 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/08-eps-converted-to
+.pdf Figures/08.eps>
+(epstopdf)             \includegraphics on input line 308.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/08-eps-converted-to.pdf, id=402, 153.57375pt x 146.5475pt>
+File: Figures/08-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/08-eps-converted-to.pdf>
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 290--311
+[]$[]$  $[]$
+ []
+
+[18
+
+ <C:/Users/CSEDU/Desktop/csedu latex OLD/Figures/10-eps-converted-to.pdf>]
+[19 <C:/Users/CSEDU/Desktop/csedu latex OLD/Figures/09-eps-converted-to.pdf> <C
+:/Users/CSEDU/Desktop/csedu latex OLD/Figures/08-eps-converted-to.pdf>]
+[20]) ("C:\Users\CSEDU\Desktop\csedu latex OLD\Chapters\Chapter4.tex" [21
+
+]
+Chapter 4.
+------------------------------------------------------------------------------
+ 4 Performance Evaluation
+------------------------------------------------------------------------------
+
+Package natbib Warning: Citation `dnd' on page 22 undefined on input line 18.
+
+[22
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+
+ []
+
+) ("C:\Users\CSEDU\Desktop\csedu latex OLD\Chapters\Chapter5.tex" [23]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 Conclusion
+------------------------------------------------------------------------------
+) ("C:\Users\CSEDU\Desktop\csedu latex OLD\Appendices\AppendixA.tex" [24
+
+]
+Appendix A.
+------------------------------------------------------------------------------
+ A Appendix Title Here
+------------------------------------------------------------------------------
+) [25
+
+]
+------------------------------------------------------------------------------
+ Bibliography
+------------------------------------------------------------------------------
+("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.bbl" [26
+
+
+] [27])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+[28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+ ("C:\Users\CSEDU\Desktop\csedu latex OLD\csedu.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package rerunfilecheck Info: File `csedu.out' has not changed.
+(rerunfilecheck)             Checksum: CFEAA677D2A4D618929A40448A3BA23B;4563.
+ ) 
+Here is how much of TeX's memory you used:
+ 10539 strings out of 494053
+ 148805 string characters out of 3148602
+ 232709 words of memory out of 3000000
+ 13466 multiletter control sequences out of 15000+200000
+ 11219 words of font info for 42 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 48i,12n,45p,1413b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on csedu.pdf (36 pages, 2127087 bytes).
+PDF statistics:
+ 533 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+

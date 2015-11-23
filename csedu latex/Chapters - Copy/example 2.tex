@@ -1,0 +1,373 @@
+% Chapter 3
+\chapter{System Design} % Write in your own chapter title
+\label{Chapter 3}
+\lhead{Chapter 3. \emph{System Design}} % Write in your own chapter title to set the page header
+\section{Software Process Model}
+To design and develop a system, the importance of software process
+model baggers description. Software process model can be called
+the methodology of implementing a software system. Software model
+can be defined as follows.
+
+A software process model is an abstract representation of a
+process that is a structured set of activities required to develop
+a software system. It presents a description of a process from
+some particular perspective \citep{bandinelli1993software}. The
+general steps \citep{bandinelli1993software} of a software process
+model are-
+
+
+\begin{enumerate}
+    \item {Specification - what the system should do and its development
+constraints}
+    \item {Design and implementation- production of the software
+system }
+    \item {Validation- checking that the software is what the
+customer wants}
+    \item {Evolution- changing the software in response to
+changing demands}
+\end{enumerate}
+
+Now let only three of the popular software models called
+waterfall, prototyping and spiral which are mostly used can be
+considered
+
+
+\subsection{Waterfall Model}
+The waterfall model is a systematic and sequential approach to
+software development that begins with customer specification of
+requirements and progresses through planning, modeling,
+construction and deployment, culminating in on-going support of
+the completed software \citep{pressman2005software}. It is the
+oldest paradigm for software engineering.
+
+The phases \citep{bandinelli1993software} of Waterfall Model are-
+
+
+\begin{itemize}
+    \item {Requirements analysis and definition}
+    \item {System and software design}
+    \item {Implementation and unit testing}
+    \item {Integration and system testing }
+    \item {Operation and maintenance}
+\end{itemize}
+
+Real projects rarely follow it as it is difficult to establish all
+requirements explicitly, no room for uncertainty.
+
+These phases of this model can be depicted as following figure
+\citep{bandinelli1993software}.
+
+\begin{figure}[htbp]
+  \centering
+ % \scalebox{0.5}{\includegraphics*[0.5in,8.5in][2.5in,10.5in]{./Figures/logo.eps}}
+\includegraphics[height=2in]{./Figures/waterfall.eps}
+   % \rule{35em}{0.5pt}
+  \caption[Waterfall Model]{Waterfall Model}
+  \label{fig:Waterfall}
+\end{figure}
+
+
+When the requirements of a problem are reasonably well understood
+and project duration is very short then waterfall model is
+suitable. The main drawback of the waterfall model is the
+difficulty of accommodating change after the process is underway.
+One phase has to be complete before moving onto the next phase.
+\subsection{Prototyping Model}
+Often, a customer defines a set of general objectives for
+software, but does not identify detailed input, processing or
+output requirements. In other cases, the developer may be unsure
+of the efficiency of an algorithm, the adaptability of an
+operating system, or the form that human-machine interaction
+should take. In these, and many other situations, prototyping
+paradigm may offer the best approach \citep{pressman2005software}.
+The phases \citep{bandinelli1993software} of this model are-
+
+
+\begin{itemize}
+    \item {Gather requirements}
+    \item {Developer and customer define overall objectives; identify
+areas needing more investigation - risky requirements}
+    \item {Quick design focusing on what will be visible to
+user - input and output formats}
+    \item {Use existing program fragments, program
+generators to throw together working version}
+    \item {Prototype evaluated and requirements
+refined}
+    \item {Process iterated until customer and
+developer satisfied}
+    \item {Then throw away prototype
+and rebuild system to high quality}
+    \item {Alternatively can have
+evolutionary prototyping - start with well understood
+requirements}
+\end{itemize}
+
+The prototyping model can be viewed as following figure
+\citep{gelbard2002integrating}-
+
+
+\begin{figure}[htbp]
+  \centering
+ % \scalebox{0.5}{\includegraphics*[0.5in,8.5in][2.5in,10.5in]{./Figures/logo.eps}}
+\includegraphics[height=2in]{./Figures/prototype.eps}
+   % \rule{35em}{0.5pt}
+  \caption[Prototype Model]{Prototype Model}
+  \label{fig:Prototype}
+\end{figure}
+
+\subsection{Spiral Model}
+The Spiral Model was defined by Barry Boehm in his article A
+Spiral Model of Software Development and Enhancement from 1986.
+This model was not the first model to discuss iteration, but it
+was the first model to explain why the iteration matters. As
+originally envisioned, the iterations were typically 6 months to 2
+years long. The spiral model (Boehm, 1988) aims at risk reduction
+by any means in any phase. The spiral model is often referred to
+as a risk-driven model \citep{boehm1998using}.
+
+
+
+\begin{itemize}
+    \item { The Spiral Development (or Lifecycle) Model is a systems
+development method used in information technology. A different
+approach born out of the evolution of the Waterfall Model.
+Encompasses the previous models as special cases, and can make use
+of a combination of models. Risk analysis asks, "What are the
+areas of uncertainty, and what is the probability that they will
+slow the progress of development?"}
+    \item {It combines the features of the prototyping model and the
+waterfall model}
+    \item {It is favored for large, expensive, and complicated
+models}
+\end{itemize}
+
+
+There are four phases in the "Spiral Model" which are: Planning,
+Evaluation, Risk Analysis and Engineering. These four phases are
+iteratively followed one after other in order to eliminate all the
+problems, which were faced in "The Waterfall Model". Iterating the
+phases helps in understating the problems associated with a phase
+and dealing with those problems when the same phase is repeated
+next time, planning and developing strategies to be followed while
+iterating through the phases.
+
+\begin{figure}[htbp]
+  \centering
+ % \scalebox{0.5}{\includegraphics*[0.5in,8.5in][2.5in,10.5in]{./Figures/logo.eps}}
+\includegraphics[height=3in]{./Figures/spiral.eps}
+   % \rule{35em}{0.5pt}
+  \caption[Spiral Model]{Spiral Model}
+  \label{fig:Spiral}
+\end{figure}
+
+The goal of the spiral model is to be risk driven, so that the
+risks in a given cycle are determined during the Analyzing Risks
+section. In order to manage these risks, certain additional
+project-specific activities may be planned to address the risks,
+such as Requirements Prototyping, if the risk analysis indicates
+that the software requirements are not clearly understood. These
+project specific risks are termed process drivers. For any process
+driver, one or more project specific activities need to be
+performed to manage the risk.
+
+
+
+\subsection{Model Chosen for Our Project}
+Here, it is briefly described why a specific process model for our
+work is adopted and why other process models are not followed by.
+As our purpose is to implement a hall student information system,
+the definition and requirements of the problem is specific and
+known so waterfall model is the best suite for the work.
+
+
+%\begin{itemize}
+\subsubsection{The Reason for Choosing Waterfall Model\newline}
+From the definition of the waterfall is already known that if the
+requirements of a problem are reasonably well understood and
+project duration is very short then waterfall model is suitable
+.As it is clear that every student hall of the university builds
+upon based on some specific established rule and regularities
+defined by the higher authority of Hall. So it was possible for us
+to specify what our system should or would contain at the start of
+the development process. It have been also learned that the first
+phase of waterfall model is "Requirements analysis and
+definition". So our project could meet the first criteria of
+waterfall model fully. Although water fall model or liner
+sequential model has some drawbacks yet we have chosen it for the
+development of our works. The hall is generally experienced enough
+for its problems and requirements from its birth so we would be
+able to fix up our requirements at a time. First we analyzed
+requirements, second designed it, third generated codes and
+finally tested it that is the steps of linear sequential model or
+water fall model. For future requirement enhancements and
+developments are also provided here.
+
+\subsubsection{ The Reason for Not Choosing Prototyping
+Model\newline}
+ In prototyping model, prototype is evaluated and
+requirements are refined and this process iterated until customer
+and developer satisfied. But our web development had to use
+cutting-edge, diverse technologies and standards, and integrates
+numerous varied components, including varied components, including
+traditional and non-traditional software, interpreted scripting
+languages, HTML files, databases, images, and other web components
+and complex user interfaces. Moreover our project is
+content-driven (database-driven). Web based systems development
+includes creation and management of the content, as well as
+appropriate provisions for subsequent content creation,
+maintenance, and management after the initial development and
+deployment on a continual basis (in some applications as
+frequently as every hour or more).\\
+So prototyping model could not be able to provide the appropriate
+environment and design step to meet all these requirements.
+Besides we knew we have to implement a single entity that is a
+collection of logically connected web pages. So navigation would
+be an important factor. But in prototyping model, it was not
+possible as this facility was absent in this model to implement.
+
+\subsubsection{The Reason for Not Choosing Spiral Model\newline}
+Spiral model combines the features of the prototyping model and
+the waterfall model. As prototyping model is not chosen. So it was
+also clear that this model can not be followed too. As this model
+was incomplete, risk-driven and estimation of budget and time
+harder to judge at the beginning of the project and our target was
+to design and implement a website, it was not felt more interest
+with this model.
+
+
+\section{Database Design}
+A database management system is a collection of interrelated data
+and a set of programs to access those data. The collection of
+data, usually referred to as the database, contains information
+relevant to an enterprise. Database systems are designed to manage
+large bodies of information. These large bodies of information do
+not exist in isolation.
+ They are part of the operation of some enterprise whose end product may be information from the database or may be some device or service for which the database plays only a supporting role.
+  \citep{silberchatz2006sistema} So a major purpose of a database system is to provide users with an abstract view of the data.
+
+Database design mainly involves the design of the database schema.
+The entity-relationship data model is a widely used data model for
+database design. The model is intended primarily for the
+database-design process. It was developed to facilitate database
+design by allowing the specification of an enterprise schema. Such
+a schema represents the overall logical structure of the database.
+The initial specification of user requirements may be based on
+interviews with the database users, and on the designer's own
+analysis of the enterprise. The description that arises from this
+design phase serves as the basis for specifying the conceptual
+structure of the database. Here are the major characteristics of
+our designed database for the Hall management system.
+\subsection{ER Diagram}
+This is a higher-level data model that is based on a perception of
+a real world that consists of a collection of basic objects,
+called entities and of relationships among these objects. Here the
+relationship is the association among several entities. More
+specifically, entity-relationship model is a widely used model
+that provides a convenient graphical representation to view data,
+relationships and constraints \citep{silberchatz2006sistema}.
+\begin{description}
+    \item[Entity \newline] {An entity is a "thing" or "object" in the real world that is distinguishable from all other objects. An entity has a set of properties and the values for some set of properties may uniquely identify an entity. An entity may be concrete, such as a person or a book, or it may be abstract, such as loan, or a holiday, or a concept.}
+    \item[Entity Set \newline] {An entity set is a set of entities of the same type that share the same properties, or attributes. The pictorial representation of the E-R model is the E-R diagram. E-R diagram can express the overall logical structure of a database graphically. Such a diagram consists of the following major components \citep{silberchatz2006sistema}:\begin{itemize}
+        \item {{\bf Rectangle:} It represents entity sets.}
+        \item {{\bf Ellipse:} It is used to represent attributes.}
+        \item {{\bf Diamond:} It represents relationship sets.}
+        \item {{\bf Line:} It links attributes to entity sets and entity sets to relationship sets.}
+        \item {{\bf Double Ellipse:} It denotes multi-valued attributes. }
+        \item {{\bf Dashed Ellipse:} It denotes derived attributes. }
+        \item {{\bf Double Line:} It indicates total participation of an entity in a relationship set.}
+        \item {{\bf Double Rectangle:} It represents weak entity sets.}
+    \end{itemize}        }
+\end{description}
+
+
+
+
+\subsection{Schema Diagram}
+In general, a relation schema consists of a list of attributes and
+their corresponding domains. A schema diagram shows the graphical
+representation of relation schema.
+
+The schema diagram of our used relation schema is shown below.
+\subsection{Data Flow Diagram}
+The flow diagram in the next page depicts the overall design and
+working steps of our designed  website.
+
+\subsection{Use Case Diagram}
+A use case is a set of scenarios that describing an interaction
+between a user and a system.  A use case diagram displays the
+relationship among actors and use cases.  The two main components
+of a use case diagram are use cases and
+actors\citep{mellor2004mda}.
+
+\begin{figure}[htbp]
+  \centering
+ % \scalebox{0.5}{\includegraphics*[0.5in,8.5in][2.5in,10.5in]{./Figures/logo.eps}}
+\includegraphics[height=3in]{./Figures/actor.eps}
+   % \rule{35em}{0.5pt}
+  \caption[Actor and User case]{Actor and User Case}
+  \label{fig:Actor}
+\end{figure}
+
+An actor is represents a user or another system that will interact
+with the system you are modeling.  A use case is an external view
+of the system that represents some action the user might perform
+in order to complete a task\citep{mellor2004mda}.
+\subsubsection{Use of Use Case Diagram}
+Use cases are used in almost every project.  The are helpful in
+exposing requirements and planning the project. During the initial
+stage of a project most use cases should be defined, but as the
+project continues more might become visible\citep{mellor2004mda}.
+\section{Features of the Proposed System}
+\subsection{Student Basic information}
+ Student basic information includes
+student name, student's father name, mother name, local guardian
+and resident or nonresident information, Department name,
+permanent address and present address etc.  The higher authority
+can create a new department as need. Student scholarship: Student
+
+\subsection{scholarship information} Student scholarship information
+is handled through the proposed system. Scholarship money withdraw
+information are also kept in this system.
+
+\subsection{Hall Fund management}
+ The system provides the hall staff
+to manage the student different kind of fund.  It is known that
+different hall deals with different kind of fund type. So the
+system has given a facility to create a new fund type.
+
+\subsection{Student seat allocation and de allocation}
+ The proposed
+system effectively manages the seat allocation and de-allocation.
+By using the system one can at first observe the status of a room.
+The system keeps s information the status of every bed of a room.
+The system also provides the facilities to create a room and the
+number of beds.
+\subsection{ Student card information} The card
+issue to the student is one of the important functions the hall
+authority. The proposed system will maintain the information about
+different type of card issued by the hall.
+
+
+\subsection{Teacher/Staff basic information}
+ A hall management can
+not be considered without keeping at least staff basic
+information. The system will handle the staff basic information
+such as name, address, designation and function.
+\subsection{Notice board} The system will maintain a notice board. One can put
+notice in a fixed format.
+
+\subsection{Search} The proposed system provides the flexibility of
+searching. The user does not need to write the search full key. It
+will provide the facilities of the autosuggestion that is when one
+write one or two character all entries matching will show as drop
+down style.
+
+
+\subsection{Some extra Features} Besides the above mentioned
+feature the proposed system has also other feature such as follows
+
+\begin{itemize}\item{About DU hall}
+\item{ Admission information} \item{ Hall library information}
+
+\item{Hall Recreation Achievement} \item{Form}
+\end{itemize}

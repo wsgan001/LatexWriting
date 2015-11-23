@@ -1,0 +1,36 @@
+@inproceedings{DBLP:conf/ausdm/AhmedTJL08,
+  author    = {Chowdhury Farhan Ahmed and
+               Syed Khairuzzaman Tanbeer and
+               Byeong{-}Soo Jeong and
+               Young{-}Koo Lee},
+  title     = {ShrFP-Tree: An Efficient Tree Structure for Mining Share-Frequent
+               Patterns},
+  booktitle = {Data Mining and Analytics 2008, Proceedings of the Seventh Australasian
+               Data Mining Conference (AusDM 2008). Glenelg/Adelaide, SA, Australia,
+               27-28 November 2008, Proceedings},
+  pages     = {79--86},
+  year      = {2008},
+  crossref  = {DBLP:conf/ausdm/2008},
+  url       = {http://crpit.com/abstracts/CRPITV87Ahmed.html},
+  timestamp = {Wed, 07 Jan 2009 13:41:20 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ausdm/AhmedTJL08},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@proceedings{DBLP:conf/ausdm/2008,
+  editor    = {John F. Roddick and
+               Jiuyong Li and
+               Peter Christen and
+               Paul J. Kennedy},
+  title     = {Data Mining and Analytics 2008, Proceedings of the Seventh Australasian
+               Data Mining Conference (AusDM 2008). Glenelg/Adelaide, SA, Australia,
+               27-28 November 2008, Proceedings},
+  series    = {{CRPIT}},
+  volume    = {87},
+  publisher = {Australian Computer Society},
+  year      = {2008},
+  isbn      = {978-1-920682-68-2},
+  timestamp = {Wed, 07 Jan 2009 13:41:20 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ausdm/2008},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
